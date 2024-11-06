@@ -7,5 +7,5 @@ Estas frases estan cargadas en una lista y las selecciona aleatoreamente.
 - CSS
 - JavaScript
 
-#Objetivo
+# Objetivo
 Entender el DOM y eventos de JS. Practicar funciones báscas y trabajar con arreglos de frases. Excelente para empezar a pensar en manipulación de datos Front-End

@@ -1,0 +1,66 @@
+html {
+    font-size: 62.5%; /* 62.5% de 16px = 10px, así que 1rem = 10px */
+  }
+
+body{
+    background: rgb(51,98,98);
+    background: linear-gradient(135deg, rgba(51,98,98,1) 0%, rgba(0,0,0,1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #FFF;
+    font-family: "Geologica", serif;
+}
+
+.contenedor{
+    text-align: center;
+    width: 95%;
+}
+
+@media (min-width: 1140px) {  
+    .contenedor{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.titulo{
+    font-size: 6rem;
+    margin-top: 10rem;
+}
+@media (min-width: 1140px) {  
+    .titulo{
+        font-size: 10rem;
+    }
+}
+
+.frase{
+    font-size: 4rem;
+    margin: 0;
+    font-family: "Yellowtail", cursive;
+}
+@media (min-width: 1140px) {  
+    .frase{
+        font-size: 5rem;
+    }
+}
+
+.boton{
+    background-color: #2e4053;
+    color: #FFF;
+    border: none;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: 0.5s;
+    margin-bottom: 3rem;
+}
+.boton:hover{
+    background-color: #3c536b;
+}
+@media (min-width: 1140px) {  
+    .boton{
+        font-size: 3rem;
+    }
+}
